@@ -54,8 +54,6 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
           amount: 1
         }
 
-        console.log(newProduct);
-
         setCart([
           ...cart,
           newProduct
@@ -83,6 +81,17 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
   const removeProduct = (productId: number) => {
     try {
       // TODO
+      const product = cart.find(product => product.id === productId);
+
+      if (product) {
+        const newCart = [...cart];
+        const index = newCart.findIndex(product => product.id === productId);
+
+        newCart.splice(index, 1);
+
+        setCart(newCart);
+      }
+
     } catch {
       // TODO
     }
