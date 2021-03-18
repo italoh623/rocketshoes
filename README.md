@@ -22,7 +22,7 @@ To run this server you will need a node version 12.0.0 (minimum)
 * To download the project follow the instructions bellow:
 
 
-1. `git clone https://github.com/italoh623/dtmoney.git`
+1. `git clone https://github.com/italoh623/rocketshoes.git`
 
 2. `cd to.do`
 
