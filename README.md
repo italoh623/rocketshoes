@@ -15,6 +15,8 @@ The project must be built with npm, so download it below if you don't have any i
 
 * **Npm** is distributed with Node.js which means that when you download Node.js, you automatically get npm installed on your computer. [Download Node.js](https://nodejs.org/en/download/)
 
+* **Yarn** is a package manager built by Facebook Team and seems to be faster than npm in general.  [Download Yarn](https://yarnpkg.com/en/docs/install)
+
 To run this server you will need a node version 12.0.0 (minimum) 
 
 # How to Install
@@ -24,15 +26,15 @@ To run this server you will need a node version 12.0.0 (minimum)
 
 1. `git clone https://github.com/italoh623/rocketshoes.git`
 
-2. `cd to.do`
+2. `cd rocketshoes`
 
 * Install the dependencies and start the server:
 
-3. `npm install`
+3. `yarn install`
 
-4. `npm server`
+4. `yarn server`
 
-5. `npm start` in other terminal 🥳
+5. `yarn start` in other terminal 🥳
 
 # Screenshots 
 
